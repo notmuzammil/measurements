@@ -12,7 +12,7 @@ export const products: Product[] = [
   {
     id: '1',
     name: 'Whale Calligraphy',
-    price: 15000,
+    price: 25000,
     description: 'Beautiful handcrafted Whale calligraphy on premium canvas.',
     longDescription: 'This exquisite piece features the Ayat-ul-Kursi meticulously handcrafted on a premium canvas. The golden accents catch the light beautifully, making it a stunning centerpiece for any room. Perfect for bringing blessings and a touch of elegance to your home.',
     image: '/src/assets/images/whale.jpeg',
@@ -25,7 +25,7 @@ export const products: Product[] = [
   {
     id: '2',
     name: 'Kalma Tayyaba Wood Art',
-    price: 12000,
+    price: 22000,
     description: 'Intricately carved Kalma Tayyaba on solid walnut wood, perfect for home decor.',
     longDescription: 'A masterfully carved Kalma Tayyaba on solid walnut wood. The deep, rich tones of the wood contrast beautifully with the precise calligraphy, creating a warm and inviting piece of art that serves as a constant spiritual reminder.',
     image: '/src/assets/images/kalma.jpeg',
@@ -49,7 +49,7 @@ export const products: Product[] = [
   {
     id: '4',
     name: 'Leaf Wall Piece',
-    price: 8000,
+    price: 20000,
     description: 'A matching pair of Allah and Muhammad (PBUH) names in classic Thuluth script.',
     longDescription: 'A beautiful matching pair featuring the names of Allah and Muhammad (PBUH) in the classic Thuluth script. These pieces are perfect for hanging side-by-side in a living room or prayer area.',
     image: '/src/assets/images/leaf.jpeg',
