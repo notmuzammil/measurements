@@ -1,3 +1,9 @@
+import kalma from "../assets/images/kalma.jpeg";
+import leaf from "../assets/images/leaf.jpeg";
+import whale from "../assets/images/whale.jpeg";
+import astaghfar from "../assets/images/astaghfar.jpeg";
+import alhumdulillah from "../assets/images/alhumdulillah.jpeg";
+
 export interface Product {
   id: string;
   name: string;
@@ -15,7 +21,7 @@ export const products: Product[] = [
     price: 25000,
     description: 'Beautiful handcrafted Whale calligraphy on premium canvas.',
     longDescription: 'This exquisite piece features the Ayat-ul-Kursi meticulously handcrafted on a premium canvas. The golden accents catch the light beautifully, making it a stunning centerpiece for any room. Perfect for bringing blessings and a touch of elegance to your home.',
-    image: '/src/assets/images/whale.jpeg',
+    image: whale,
     gallery: [
       '/src/assets/images/whale.jpeg',
       'https://images.unsplash.com/photo-1584285405624-b184281f621e?auto=format&fit=crop&q=80&w=800',
@@ -28,7 +34,7 @@ export const products: Product[] = [
     price: 22000,
     description: 'Intricately carved Kalma Tayyaba on solid walnut wood, perfect for home decor.',
     longDescription: 'A masterfully carved Kalma Tayyaba on solid walnut wood. The deep, rich tones of the wood contrast beautifully with the precise calligraphy, creating a warm and inviting piece of art that serves as a constant spiritual reminder.',
-    image: '/src/assets/images/kalma.jpeg',
+    image: kalma,
     gallery: [
       '/src/assets/images/kalma.jpeg',
       'https://images.unsplash.com/photo-1608228079968-c768181b8134?auto=format&fit=crop&q=80&w=800'
@@ -40,7 +46,7 @@ export const products: Product[] = [
     price: 18000,
     description: 'Elegant Surah Rahman verses painted with traditional Islamic motifs.',
     longDescription: 'This elegant wall piece features verses from Surah Rahman, surrounded by traditional Islamic geometric motifs. Painted with high-quality acrylics and finished with a protective varnish, it is designed to last generations.',
-    image: '/src/assets/images/astaghfar.jpeg',
+    image: astaghfar,
     gallery: [
       '/src/assets/images/astaghfar.jpeg',
       'https://images.unsplash.com/photo-1584285405624-b184281f621e?auto=format&fit=crop&q=80&w=800'
@@ -52,9 +58,9 @@ export const products: Product[] = [
     price: 20000,
     description: 'A matching pair of Allah and Muhammad (PBUH) names in classic Thuluth script.',
     longDescription: 'A beautiful matching pair featuring the names of Allah and Muhammad (PBUH) in the classic Thuluth script. These pieces are perfect for hanging side-by-side in a living room or prayer area.',
-    image: '/src/assets/images/leaf.jpeg',
+    image: leaf,
     gallery: [
-      '/src/assets/images/leaf.jpeg'
+      leaf
     ]
   },
   {
