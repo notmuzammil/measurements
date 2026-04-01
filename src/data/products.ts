@@ -19,11 +19,11 @@ export const products: Product[] = [
     id: '1',
     name: 'Whale Calligraphy',
     price: 25000,
-    description: 'Beautiful handcrafted Whale calligraphy on premium canvas.',
-    longDescription: 'This exquisite piece features the Ayat-ul-Kursi meticulously handcrafted on a premium canvas. The golden accents catch the light beautifully, making it a stunning centerpiece for any room. Perfect for bringing blessings and a touch of elegance to your home.',
+    description: 'Beautiful handcrafted Whale 3D calligraphy on premium canvas.',
+    longDescription: 'This exquisite piece features the Whale meticulously handcrafted on a premium canvas. The golden accents catch the light beautifully, making it a stunning centerpiece for any room. Perfect for bringing blessings and a touch of elegance to your home.',
     image: whale,
     gallery: [
-      '/src/assets/images/whale.jpeg',
+      whale,
       'https://images.unsplash.com/photo-1584285405624-b184281f621e?auto=format&fit=crop&q=80&w=800',
       'https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?auto=format&fit=crop&q=80&w=800'
     ]
@@ -44,8 +44,8 @@ export const products: Product[] = [
     id: '3',
     name: 'Astaghfirullah Wall Piece',
     price: 18000,
-    description: 'Elegant Surah Rahman verses painted with traditional Islamic motifs.',
-    longDescription: 'This elegant wall piece features verses from Surah Rahman, surrounded by traditional Islamic geometric motifs. Painted with high-quality acrylics and finished with a protective varnish, it is designed to last generations.',
+    description: 'Elegant wall piece featuring the phrase "Astaghfirullah".',
+    longDescription: 'This elegant wall piece features verses, surrounded by traditional Islamic geometric motifs. Painted with high-quality acrylics and finished with a protective varnish, it is designed to last generations.',
     image: astaghfar,
     gallery: [
       '/src/assets/images/astaghfar.jpeg',
@@ -56,8 +56,8 @@ export const products: Product[] = [
     id: '4',
     name: 'Leaf Wall Piece',
     price: 20000,
-    description: 'A matching pair of Allah and Muhammad (PBUH) names in classic Thuluth script.',
-    longDescription: 'A beautiful matching pair featuring the names of Allah and Muhammad (PBUH) in the classic Thuluth script. These pieces are perfect for hanging side-by-side in a living room or prayer area.',
+    description: 'A Leaf made with putty and lightly painted with acrylics.',
+    longDescription: 'A beautiful leaf wall piece made with putty and lightly painted with acrylics. The delicate details and subtle colors make it a perfect addition to any space, bringing a touch of nature and tranquility to your home.',
     image: leaf,
     gallery: [
       leaf
@@ -69,9 +69,9 @@ export const products: Product[] = [
     price: 10000,
     description: 'Hand-painted geometric Islamic star pattern with rich earthy tones.',
     longDescription: 'A mesmerizing hand-painted geometric star pattern. The rich earthy tones of brown, ochre, and deep red reflect traditional Islamic architecture and design principles.',
-    image: '/src/assets/images/alhumdulillah.jpeg',
+    image: alhumdulillah,
     gallery: [
-      '/src/assets/images/alhumdulillah.jpeg'
+      alhumdulillah
     ]
   },
   {
